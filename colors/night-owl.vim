@@ -142,6 +142,8 @@ hi NonText cterm=NONE ctermbg=17 gui=NONE guibg=#001528
 
 hi Visual guifg=#70e4ff guibg=#6041ea gui=none
 hi CursorLine guibg=#002444
+" gutter color: 
+hi SignColumn guibg=#06284b
 
 let g:terminal_color_foreground = "#d6deeb"
 let g:terminal_color_background = "#011627"
