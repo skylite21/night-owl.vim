@@ -145,6 +145,11 @@ hi CursorLine guibg=#002444
 " gutter color: 
 hi SignColumn guibg=#06284b
 
+" TODO
+syn match   myTodo   contained   "\<\(TODO\|FIXME\):"
+hi def link myTodo Todo
+hi Todo guibg=#944b23 guifg=#ffffff
+
 let g:terminal_color_foreground = "#d6deeb"
 let g:terminal_color_background = "#011627"
 let g:terminal_color_0 = "#011627"
